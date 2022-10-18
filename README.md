@@ -11,3 +11,6 @@
     <img src="https://img.shields.io/badge/Kaggle-blue?logo=K&logoColor=white&style=for-the-badge" alt="Kaggle Badge"/>
   </a>
 </div>
+
+<div id="badges" align="center">
+< img src="https://github.com/Andrej-Ilin?username=your-github-username&style=flat-square&color=blue" alt=""/>
