@@ -6,7 +6,7 @@
 [linkedin.com/in/андрей-ильин](https://linkedin.com/in/андрей-ильин)
 
 <div id="badges">
-  <a href="your-linkedin-URL">
+  <a href="https://linkedin.com/in/андрей-ильин">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   <a href="your-youtube-URL">
