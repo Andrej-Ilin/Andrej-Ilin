@@ -14,4 +14,4 @@ jobs:
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I started studying just one more ML course to refresh my knowledge. I joined ML Zoom Cam, the organizer of which is <a href="https://twitter.com/Al_Grigor?ref_src=twsrc%5Etfw">@Al_Grigor</a>. <br>Learn more: <a href="https://t.co/Q2V9kxTYaF">https://t.co/Q2V9kxTYaF</a></p>&mdash; Andrei Ilin (@Andrej_Ilin_DS) <a href="https://twitter.com/Andrej_Ilin_DS/status/1584065183839768576?ref_src=twsrc%5Etfw">October 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>"
+          feed_list: https://twitter.com/Andrej_Ilin_DS/status/1584065183839768576"
