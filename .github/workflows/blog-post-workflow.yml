@@ -1,0 +1,17 @@
+name: Latest blog post workflow
+on:
+  schedule: # Run workflow automatically
+    - cron: '0 * * * *' # Runs every hour, on the hour
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Pull in dev.to posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I started studying just one more ML course to refresh my knowledge. I joined ML Zoom Cam, the organizer of which is <a href="https://twitter.com/Al_Grigor?ref_src=twsrc%5Etfw">@Al_Grigor</a>. <br>Learn more: <a href="https://t.co/Q2V9kxTYaF">https://t.co/Q2V9kxTYaF</a></p>&mdash; Andrei Ilin (@Andrej_Ilin_DS) <a href="https://twitter.com/Andrej_Ilin_DS/status/1584065183839768576?ref_src=twsrc%5Etfw">October 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>"
