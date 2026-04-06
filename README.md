@@ -24,7 +24,6 @@
 - [girafe](https://github.com/Andrej-Ilin/girafe) — AI- и ML-эксперименты, research notes и прикладные наработки.
 - [emotion_recognition_project](https://github.com/Andrej-Ilin/emotion_recognition_project) — распознавание эмоций по аудио с PyTorch, Streamlit и Docker.
 - [asl-signs-recognition](https://github.com/Andrej-Ilin/asl-signs-recognition) — распознавание жестов американского языка по видео.
-- [claw-code](https://github.com/Andrej-Ilin/claw-code) — инженерный pet project с упором на разработку и tooling.
 - [openrouter-models-mcp](https://github.com/Andrej-Ilin/openrouter-models-mcp) — MCP server для получения актуального списка бесплатных OpenRouter моделей.
 
 ---
