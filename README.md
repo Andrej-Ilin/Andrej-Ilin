@@ -40,8 +40,12 @@
 | **ML / Deep Learning** | PyTorch, TensorFlow/Keras, scikit-learn, pandas, NumPy, feature engineering, cross-validation, imbalanced data |
 | **CV / Audio / NLP** | OpenCV, MediaPipe, librosa, MFCC, CNN/LSTM, transfer learning, text processing |
 | **GenAI** | LLM, RAG, AI agents, MCP, OpenRouter, проектирование инструментов для coding agents |
-| **Engineering** | Python 3.11+, JavaScript/Node.js, SQL, Git, pytest, Ruff, pre-commit, GitHub Actions |
-| **Delivery / MLOps** | Docker, Streamlit, REST API, AWS, Kubernetes, serverless deployment, model optimization |
+| **Search / Retrieval** | embeddings, Qdrant, dense/sparse и hybrid retrieval, IDF, LLM reranking, labeled datasets, offline evaluation |
+| **Backend / Data** | FastAPI, Pydantic, PostgreSQL, SQL migrations, Celery, Redis, OpenAPI, background jobs |
+| **Frontend** | React, TypeScript, Vite, TanStack Query, Vitest, Testing Library |
+| **Engineering** | Python 3.11/3.12, JavaScript/Node.js, SQL, Git, API design, pytest, Ruff, pre-commit |
+| **Platform / MLOps** | Docker/Compose, Helm, Kubernetes, GitHub Actions, GitLab CI/CD, Kaniko, uv, AWS, serverless deployment |
+| **Privacy / Quality** | privacy-by-design, изоляция PII, audit logging, retention, access control, regression и smoke testing |
 
 ## Практический опыт
 
