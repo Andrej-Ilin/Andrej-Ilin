@@ -47,7 +47,7 @@
 | **Platform / MLOps** | Docker/Compose, Helm, Kubernetes, GitHub Actions, GitLab CI/CD, Kaniko, uv, AWS, serverless deployment |
 | **Privacy / Quality** | privacy-by-design, изоляция PII, audit logging, retention, access control, regression и smoke testing |
 
-## Практический опыт
+## Боевой опыт
 
 - **Классификация 70 пород собак:** Xception, точность 95%, конвертация модели в TensorFlow Lite до 81 МБ, Yandex Serverless и Telegram-бот.
 - **Кредитный скоринг:** обработка несбалансированных данных, KFold-валидация и результат в топ-20% внутреннего соревнования SkillFactory.
