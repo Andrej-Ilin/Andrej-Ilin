@@ -2,9 +2,9 @@
 
 # Андрей Ильин
 
-### ML / AI Engineer · Deep Learning · AI tooling
+### ML / AI Engineer · Search & LLM systems · Production engineering
 
-Строю ML-системы и инструменты для разработчиков — от исследования данных и обучения модели<br/>до интерфейса, автоматизации и развёртывания.
+Разрабатываю ML/AI-продукты end-to-end — от данных и моделей<br/>до API, интерфейсов, мониторинга и production-развёртывания.
 
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/andrej_ilin)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/андрей-ильин)
@@ -15,48 +15,36 @@
 
 ## Обо мне
 
-Я разрабатываю решения на стыке машинного обучения и software engineering: готовлю данные, обучаю и оцениваю модели, собираю пользовательские интерфейсы и упаковываю проекты для воспроизводимого запуска.
+Проектирую и разрабатываю ML/AI-системы на стыке моделей, backend-разработки и продуктовой инженерии. Основной фокус — hybrid search, LLM-reranking, AI-агенты и MCP; также работаю с computer vision, NLP, аудио и классическим ML.
 
 - Магистрант МФТИ по программе «Современные методы искусственного интеллекта» (2024–2026).
-- Работаю с computer vision, NLP, аудио и классическим ML.
-- Развиваю инструменты вокруг LLM, AI-агентов, RAG и Model Context Protocol (MCP).
-- Предпринимательский и инженерный опыт помогает связывать качество модели с ценностью для пользователя и бизнеса.
 - Нахожусь в Москве, открыт к позициям и проектам в ML/AI Engineering и Data Science.
-
-## Избранные проекты
-
-| Проект | Что сделано | Стек |
-|---|---|---|
-| [VS Code Feature Scout](https://github.com/Andrej-Ilin/vscode-feature-scout) | Dependency-free CLI: анализирует release notes и сигналы проекта, превращая их в короткие рекомендации для coding agents. Есть тесты, линтинг и CI для Python 3.11/3.12. | Python, pytest, Ruff, GitHub Actions, uv |
-| [OpenRouter Models MCP](https://github.com/Andrej-Ilin/openrouter-models-mcp) | MCP-сервер для получения актуального списка бесплатных LLM и метаданных моделей OpenRouter в реальном времени. | JavaScript, Node.js, MCP SDK, OpenRouter API |
-| [Emotion Recognition](https://github.com/Andrej-Ilin/emotion_recognition_project) | Классификация эмоций по речи: MFCC-признаки, LSTM на RAVDESS, запись и загрузка аудио через Streamlit, Docker-запуск. | TensorFlow/Keras, librosa, scikit-learn, Streamlit, Docker |
-| [ASL Signs Recognition](https://github.com/Andrej-Ilin/asl-signs-recognition) | Проект пайплайна распознавания жестов по видео и ключевым точкам: структура Python-пакета, EDA, baseline и MLOps-практики. | TensorFlow, OpenCV, MediaPipe, pandas, pre-commit |
-| [GIRAFE](https://github.com/Andrej-Ilin/girafe) | Учебные и исследовательские эксперименты МФТИ по ML, статистике, рекомендательным системам и deep learning. | Python, Jupyter, PyTorch |
-
-## Навыки
-
-| Направление | Технологии и практики |
-|---|---|
-| **ML / Deep Learning** | PyTorch, TensorFlow/Keras, scikit-learn, pandas, NumPy, feature engineering, cross-validation, imbalanced data |
-| **CV / Audio / NLP** | OpenCV, MediaPipe, librosa, MFCC, CNN/LSTM, transfer learning, text processing |
-| **GenAI** | LLM, RAG, AI agents, MCP, OpenRouter, проектирование инструментов для coding agents |
-| **Search / Retrieval** | embeddings, Qdrant, dense/sparse и hybrid retrieval, IDF, LLM reranking, labeled datasets, offline evaluation |
-| **Backend / Data** | FastAPI, Pydantic, PostgreSQL, SQL migrations, Celery, Redis, OpenAPI, background jobs |
-| **Frontend** | React, TypeScript, Vite, TanStack Query, Vitest, Testing Library |
-| **Engineering** | Python 3.11/3.12, JavaScript/Node.js, SQL, Git, API design, pytest, Ruff, pre-commit |
-| **Platform / MLOps** | Docker/Compose, Helm, Kubernetes, GitHub Actions, GitLab CI/CD, Kaniko, uv, AWS, serverless deployment |
-| **Privacy / Quality** | privacy-by-design, изоляция PII, audit logging, retention, access control, regression и smoke testing |
 
 ## Боевой опыт
 
 - **HH Auto Bot — AI-сервис автоматизации поиска работы:** спроектировал, разработал и развернул многопользовательский Telegram-сервис с браузерной автоматизацией на Playwright, AI-оценкой вакансий и генерацией сопроводительных писем. Реализовал асинхронную очередь задач, PostgreSQL/Redis, платежи, мониторинг и контейнерный production-деплой.
-- **Production ML/AI Engineering:** hybrid retrieval (dense + sparse/IDF), embeddings, LLM-reranking и offline evaluation; FastAPI/OpenAPI, PostgreSQL/Qdrant, Celery/Redis и React/TypeScript; Docker, Helm/Kubernetes и GitLab CI/CD; privacy-by-design, изоляция PII, аудит и retention.
+- **Production ML/AI-системы:** проектирую end-to-end контуры hybrid retrieval и LLM-reranking — от подготовки данных и offline evaluation до API, фоновых задач, хранилищ, интерфейса и production-деплоя. Учитываю privacy-by-design, изоляцию PII, аудит и retention.
+
+## Ключевой стек
+
+| Направление | Технологии и практики |
+|---|---|
+| **ML / Deep Learning** | PyTorch, TensorFlow/Keras, scikit-learn, pandas, NumPy, computer vision, NLP, audio processing |
+| **Search / GenAI** | embeddings, Qdrant, dense/sparse hybrid retrieval, LLM-reranking, RAG, AI agents, MCP, offline evaluation |
+| **Backend / Data** | Python, FastAPI, Pydantic, OpenAPI, PostgreSQL, SQLAlchemy, Redis, Celery, async processing |
+| **Интерфейсы / Automation** | React, TypeScript, Vite, Streamlit, aiogram, Playwright |
+| **Platform / Quality** | Docker/Compose, Helm, Kubernetes, GitHub Actions, GitLab CI/CD, Prometheus/Grafana, pytest, Ruff, privacy-by-design |
+
+## Открытый код
+
+| Проект | Что показывает | Стек |
+|---|---|---|
+| [VS Code Feature Scout](https://github.com/Andrej-Ilin/vscode-feature-scout) | CLI, который превращает release notes и сигналы проекта в практические рекомендации для coding agents. Проект включает тесты, линтинг и CI. | Python, pytest, Ruff, GitHub Actions, uv |
+| [Emotion Recognition](https://github.com/Andrej-Ilin/emotion_recognition_project) | End-to-end ML-прототип классификации эмоций по речи: MFCC, LSTM, Streamlit-интерфейс и Docker-запуск. | TensorFlow/Keras, librosa, scikit-learn, Streamlit, Docker |
 
 ## Образование
 
 - **Московский физико-технический институт (МФТИ)** — магистратура «Современные методы искусственного интеллекта», 2024–2026.
-- **ML Engineering Zoomcamp** — ML engineering, deployment, AWS, serverless, Kubernetes, 2022–2023.
-- **SkillFactory** — специализация Data Science: анализ данных и машинное обучение, 2020–2021.
 
 ## Языки
 
