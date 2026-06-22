@@ -49,10 +49,8 @@
 
 ## Боевой опыт
 
-- **Классификация 70 пород собак:** Xception, точность 95%, конвертация модели в TensorFlow Lite до 81 МБ, Yandex Serverless и Telegram-бот.
-- **Кредитный скоринг:** обработка несбалансированных данных, KFold-валидация и результат в топ-20% внутреннего соревнования SkillFactory.
-- **ML Engineering Zoomcamp:** полный учебный цикл от классических ML-моделей и нейросетей до AWS, serverless и Kubernetes.
-- **Исследовательская работа:** разбор статей, воспроизводимые эксперименты и учебные проекты по современным методам ML/DL.
+- **HH Auto Bot — AI-сервис автоматизации поиска работы:** спроектировал, разработал и развернул многопользовательский Telegram-сервис с браузерной автоматизацией на Playwright, AI-оценкой вакансий и генерацией сопроводительных писем. Реализовал асинхронную очередь задач, PostgreSQL/Redis, платежи, мониторинг и контейнерный production-деплой.
+- **Production ML/AI Engineering:** hybrid retrieval (dense + sparse/IDF), embeddings, LLM-reranking и offline evaluation; FastAPI/OpenAPI, PostgreSQL/Qdrant, Celery/Redis и React/TypeScript; Docker, Helm/Kubernetes и GitLab CI/CD; privacy-by-design, изоляция PII, аудит и retention.
 
 ## Образование
 
